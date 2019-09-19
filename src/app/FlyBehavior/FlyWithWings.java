@@ -11,6 +11,6 @@ public class FlyWithWings implements FlyBehavior {
 
     @Override
     public void fly() {
-        System.out.println("Puede volar");
+        System.out.println("El pato vuela");
     }
 }
