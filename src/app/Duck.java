@@ -8,7 +8,7 @@ public abstract class Duck {
     // Asociación con las interfaces
     protected FlyBehavior flyBehavior;
     protected SoundBehavior soundBehavior;
-
+    
 	public Duck() {}
 
     /**
@@ -19,24 +19,10 @@ public abstract class Duck {
     }
 
     /**
-     * @return the flyBehavior
-     */
-    public FlyBehavior getFlyBehavior() {
-        return flyBehavior;
-    }
-
-    /**
      * @param soundBehavior the soundBehavior to set
      */
     public void setSoundBehavior(SoundBehavior soundBehavior) {
         this.soundBehavior = soundBehavior;
-    }
-
-    /**
-     * @return the soundBehavior
-     */
-    public SoundBehavior getSoundBehavior() {
-        return soundBehavior;
     }
 
     // Comportamiento de todos, dependiendo del hijo
@@ -47,7 +33,7 @@ public abstract class Duck {
         System.out.println("Nadar");
     }
 
-    // Implementación de interfaces
+    // Implementación de interfaces:
     public void performFly() {
         flyBehavior.fly();
     }

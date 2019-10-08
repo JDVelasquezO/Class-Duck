@@ -5,9 +5,7 @@ package app.FlyBehavior;
  */
 public class FlyNoWay implements FlyBehavior {
 
-    public FlyNoWay() {
-
-    }
+    public FlyNoWay() {}
 
     @Override
     public void fly() {

@@ -10,8 +10,8 @@ public class RubberDuck extends Duck {
 
     public RubberDuck() {
         super();
-        flyBehavior = new FlyNoWay();
-        soundBehavior = new Squeak();
+        super.flyBehavior = new FlyNoWay();
+        super.soundBehavior = new Squeak();
     }
 
     @Override

@@ -5,9 +5,7 @@ package app.SoundBehavior;
  */
 public class Mute implements SoundBehavior{
 
-    public Mute(){
-
-    }
+    public Mute(){}
 
     @Override
     public void sound() {

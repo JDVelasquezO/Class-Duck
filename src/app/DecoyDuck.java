@@ -10,8 +10,8 @@ public class DecoyDuck extends Duck {
 
     public DecoyDuck() {
         super();
-        flyBehavior = new FlyNoWay();
-        soundBehavior = new Mute();
+        super.flyBehavior = new FlyNoWay();
+        super.soundBehavior = new Mute();
     }
 
     @Override

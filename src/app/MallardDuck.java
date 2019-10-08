@@ -10,8 +10,8 @@ public class MallardDuck extends Duck {
 
     public MallardDuck() {
         super();
-        flyBehavior = new FlyWithWings();
-        soundBehavior = new Quack();
+        super.flyBehavior = new FlyWithWings();
+        super.soundBehavior = new Quack();
     }
 
     @Override

@@ -5,9 +5,7 @@ package app.SoundBehavior;
  */
 public class Quack implements SoundBehavior {
 
-    public Quack() {
-
-    }
+    public Quack() {}
 
     @Override
     public void sound() {
